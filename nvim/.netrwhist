@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/data/models'
+let g:netrw_dirhist_9='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/data'
+let g:netrw_dirhist_8='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj'
+let g:netrw_dirhist_7='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/src'
+let g:netrw_dirhist_6='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj'
+let g:netrw_dirhist_5='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/data'
+let g:netrw_dirhist_4='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/src'
+let g:netrw_dirhist_3='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj'
+let g:netrw_dirhist_2='/Users/nathansquan/Documents/Emory/Thesis/Thesis-RProj/data'
+let g:netrw_dirhist_1='/Users/nathansquan/.gem/ruby/2.6.0/cache'
