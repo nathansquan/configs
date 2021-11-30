@@ -24,6 +24,7 @@ filetype plugin indent on
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 set updatetime=100 " set update time for gitgutter update
+set noshowmode " get rid of mode indicator when lightline is on
 
 "this is a comment
 call plug#begin('~/.vim/plugged')
@@ -66,6 +67,13 @@ let mapleader = "\<space>"
 
 " Allow gf to open non-existent files
 map gf :edit <cfile><cr>
+
+" Python provider configuration
+" https://neovim.io/doc/user/provider.html
+" disable Python 2 support
+let g:loaded_python_provider = 0
+" Python3 support for jedi
+let g:python3_host_prog = '~/nvim-python3/bin/python'
 
 " Window Splits
 set splitbelow splitright
